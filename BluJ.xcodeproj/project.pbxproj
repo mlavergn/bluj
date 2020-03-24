@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E147FE6242BBBF800F85D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E147FE5242BBBF800F85D41 /* AppDelegate.swift */; };
+		5E147FEA242BBBF900F85D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E147FE9242BBBF900F85D41 /* Assets.xcassets */; };
+		5E147FED242BBBF900F85D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E147FEC242BBBF900F85D41 /* Preview Assets.xcassets */; };
+		5E147FFC242BBBF900F85D41 /* BluJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E147FFB242BBBF900F85D41 /* BluJTests.swift */; };
+		5E148007242BBC2000F85D41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148006242BBC2000F85D41 /* main.swift */; };
+		5E14800B242BC40F00F85D41 /* AdminMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148008242BC40F00F85D41 /* AdminMac.swift */; };
+		5E14800C242BC40F00F85D41 /* BluJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148009242BC40F00F85D41 /* BluJ.swift */; };
+		5E14800D242BC40F00F85D41 /* BluJUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14800A242BC40F00F85D41 /* BluJUI.swift */; };
+		5E148011242BC42200F85D41 /* AuthExec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E148010242BC42200F85D41 /* AuthExec.m */; };
+		5E148014242BC49900F85D41 /* NetworkMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148012242BC49900F85D41 /* NetworkMac.swift */; };
+		5E148015242BC49900F85D41 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148013242BC49900F85D41 /* NetworkInterface.swift */; };
+		5EB823A0242C086700564A9B /* BluJ-StatusBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8239F242C086700564A9B /* BluJ-StatusBar.pdf */; };
+		5EB823A3242C408900564A9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB823A2242C408900564A9B /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E147FF8242BBBF900F85D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E147FDA242BBBF800F85D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E147FE1242BBBF800F85D41;
+			remoteInfo = BluJ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E147FE2242BBBF800F85D41 /* BluJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E147FE5242BBBF800F85D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E147FE9242BBBF900F85D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E147FEC242BBBF900F85D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E147FF1242BBBF900F85D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E147FF2242BBBF900F85D41 /* BluJ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluJ.entitlements; sourceTree = "<group>"; };
+		5E147FF7242BBBF900F85D41 /* BluJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E147FFB242BBBF900F85D41 /* BluJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluJTests.swift; sourceTree = "<group>"; };
+		5E147FFD242BBBF900F85D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E148006242BBC2000F85D41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E148008242BC40F00F85D41 /* AdminMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminMac.swift; sourceTree = "<group>"; };
+		5E148009242BC40F00F85D41 /* BluJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluJ.swift; sourceTree = "<group>"; };
+		5E14800A242BC40F00F85D41 /* BluJUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluJUI.swift; sourceTree = "<group>"; };
+		5E14800E242BC42100F85D41 /* BluJ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluJ-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E14800F242BC42200F85D41 /* AuthExec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthExec.h; sourceTree = "<group>"; };
+		5E148010242BC42200F85D41 /* AuthExec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthExec.m; sourceTree = "<group>"; };
+		5E148012242BC49900F85D41 /* NetworkMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMac.swift; sourceTree = "<group>"; };
+		5E148013242BC49900F85D41 /* NetworkInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		5EB8239F242C086700564A9B /* BluJ-StatusBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BluJ-StatusBar.pdf"; sourceTree = "<group>"; };
+		5EB823A2242C408900564A9B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E147FDF242BBBF800F85D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB823A3242C408900564A9B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E147FF4242BBBF900F85D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E147FD9242BBBF800F85D41 = {
+			isa = PBXGroup;
+			children = (
+				5E147FE4242BBBF800F85D41 /* BluJ */,
+				5E147FFA242BBBF900F85D41 /* BluJTests */,
+				5E147FE3242BBBF800F85D41 /* Products */,
+				5EB823A1242C408900564A9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E147FE3242BBBF800F85D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E147FE2242BBBF800F85D41 /* BluJ.app */,
+				5E147FF7242BBBF900F85D41 /* BluJTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E147FE4242BBBF800F85D41 /* BluJ */ = {
+			isa = PBXGroup;
+			children = (
+				5E148013242BC49900F85D41 /* NetworkInterface.swift */,
+				5E148012242BC49900F85D41 /* NetworkMac.swift */,
+				5E148009242BC40F00F85D41 /* BluJ.swift */,
+				5E14800A242BC40F00F85D41 /* BluJUI.swift */,
+				5E147FE5242BBBF800F85D41 /* AppDelegate.swift */,
+				5E148006242BBC2000F85D41 /* main.swift */,
+				5E148008242BC40F00F85D41 /* AdminMac.swift */,
+				5E14800F242BC42200F85D41 /* AuthExec.h */,
+				5E148010242BC42200F85D41 /* AuthExec.m */,
+				5E14800E242BC42100F85D41 /* BluJ-Bridging-Header.h */,
+				5E147FE9242BBBF900F85D41 /* Assets.xcassets */,
+				5E147FF1242BBBF900F85D41 /* Info.plist */,
+				5E147FF2242BBBF900F85D41 /* BluJ.entitlements */,
+				5EB8239F242C086700564A9B /* BluJ-StatusBar.pdf */,
+				5E147FEB242BBBF900F85D41 /* Preview Content */,
+			);
+			path = BluJ;
+			sourceTree = "<group>";
+		};
+		5E147FEB242BBBF900F85D41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E147FEC242BBBF900F85D41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E147FFA242BBBF900F85D41 /* BluJTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E147FFB242BBBF900F85D41 /* BluJTests.swift */,
+				5E147FFD242BBBF900F85D41 /* Info.plist */,
+			);
+			path = BluJTests;
+			sourceTree = "<group>";
+		};
+		5EB823A1242C408900564A9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB823A2242C408900564A9B /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E147FE1242BBBF800F85D41 /* BluJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E148000242BBBF900F85D41 /* Build configuration list for PBXNativeTarget "BluJ" */;
+			buildPhases = (
+				5E147FDE242BBBF800F85D41 /* Sources */,
+				5E147FDF242BBBF800F85D41 /* Frameworks */,
+				5E147FE0242BBBF800F85D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluJ;
+			productName = BluJ;
+			productReference = 5E147FE2242BBBF800F85D41 /* BluJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E147FF6242BBBF900F85D41 /* BluJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E148003242BBBF900F85D41 /* Build configuration list for PBXNativeTarget "BluJTests" */;
+			buildPhases = (
+				5E147FF3242BBBF900F85D41 /* Sources */,
+				5E147FF4242BBBF900F85D41 /* Frameworks */,
+				5E147FF5242BBBF900F85D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E147FF9242BBBF900F85D41 /* PBXTargetDependency */,
+			);
+			name = BluJTests;
+			productName = BluJTests;
+			productReference = 5E147FF7242BBBF900F85D41 /* BluJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E147FDA242BBBF800F85D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lavergne, Marc";
+				TargetAttributes = {
+					5E147FE1242BBBF800F85D41 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					5E147FF6242BBBF900F85D41 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5E147FE1242BBBF800F85D41;
+					};
+				};
+			};
+			buildConfigurationList = 5E147FDD242BBBF800F85D41 /* Build configuration list for PBXProject "BluJ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E147FD9242BBBF800F85D41;
+			productRefGroup = 5E147FE3242BBBF800F85D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E147FE1242BBBF800F85D41 /* BluJ */,
+				5E147FF6242BBBF900F85D41 /* BluJTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E147FE0242BBBF800F85D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E147FED242BBBF900F85D41 /* Preview Assets.xcassets in Resources */,
+				5EB823A0242C086700564A9B /* BluJ-StatusBar.pdf in Resources */,
+				5E147FEA242BBBF900F85D41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E147FF5242BBBF900F85D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E147FDE242BBBF800F85D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E148014242BC49900F85D41 /* NetworkMac.swift in Sources */,
+				5E147FE6242BBBF800F85D41 /* AppDelegate.swift in Sources */,
+				5E14800B242BC40F00F85D41 /* AdminMac.swift in Sources */,
+				5E14800D242BC40F00F85D41 /* BluJUI.swift in Sources */,
+				5E148015242BC49900F85D41 /* NetworkInterface.swift in Sources */,
+				5E14800C242BC40F00F85D41 /* BluJ.swift in Sources */,
+				5E148011242BC42200F85D41 /* AuthExec.m in Sources */,
+				5E148007242BBC2000F85D41 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E147FF3242BBBF900F85D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E147FFC242BBBF900F85D41 /* BluJTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E147FF9242BBBF900F85D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E147FE1242BBBF800F85D41 /* BluJ */;
+			targetProxy = 5E147FF8242BBBF900F85D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E147FFE242BBBF900F85D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E147FFF242BBBF900F85D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E148001242BBBF900F85D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BluJ/BluJ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BluJ/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6H2FB9YW2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BluJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marclavergne.BluJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BluJ/BluJ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E148002242BBBF900F85D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BluJ/BluJ.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BluJ/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6H2FB9YW2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BluJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marclavergne.BluJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BluJ/BluJ-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E148004242BBBF900F85D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H2FB9YW2;
+				INFOPLIST_FILE = BluJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marclavergne.BluJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluJ.app/Contents/MacOS/BluJ";
+			};
+			name = Debug;
+		};
+		5E148005242BBBF900F85D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H2FB9YW2;
+				INFOPLIST_FILE = BluJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marclavergne.BluJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluJ.app/Contents/MacOS/BluJ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E147FDD242BBBF800F85D41 /* Build configuration list for PBXProject "BluJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E147FFE242BBBF900F85D41 /* Debug */,
+				5E147FFF242BBBF900F85D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E148000242BBBF900F85D41 /* Build configuration list for PBXNativeTarget "BluJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E148001242BBBF900F85D41 /* Debug */,
+				5E148002242BBBF900F85D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E148003242BBBF900F85D41 /* Build configuration list for PBXNativeTarget "BluJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E148004242BBBF900F85D41 /* Debug */,
+				5E148005242BBBF900F85D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E147FDA242BBBF800F85D41 /* Project object */;
+}
