@@ -14,7 +14,7 @@
 @interface AuthExec : NSObject
 
 /**
- * The application *cannot* be  sandboxed  for this to work since the executable path is not available in the sandbox
+ * The application *cannot* be  sandboxed  for this to work since executable paths are not available in the sandbox
  */
 + (OSStatus)execute:(AuthorizationRef)authorizationRef executable:(NSString *)tool args:(NSArray<NSString *> *)args;
 

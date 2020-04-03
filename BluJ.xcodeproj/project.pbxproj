@@ -13,11 +13,17 @@
 		5E147FFC242BBBF900F85D41 /* BluJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E147FFB242BBBF900F85D41 /* BluJTests.swift */; };
 		5E148007242BBC2000F85D41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148006242BBC2000F85D41 /* main.swift */; };
 		5E14800B242BC40F00F85D41 /* AdminMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148008242BC40F00F85D41 /* AdminMac.swift */; };
-		5E14800C242BC40F00F85D41 /* BluJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148009242BC40F00F85D41 /* BluJ.swift */; };
-		5E14800D242BC40F00F85D41 /* BluJUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14800A242BC40F00F85D41 /* BluJUI.swift */; };
+		5E14800C242BC40F00F85D41 /* Blu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148009242BC40F00F85D41 /* Blu.swift */; };
+		5E14800D242BC40F00F85D41 /* BluUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14800A242BC40F00F85D41 /* BluUI.swift */; };
 		5E148011242BC42200F85D41 /* AuthExec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E148010242BC42200F85D41 /* AuthExec.m */; };
 		5E148014242BC49900F85D41 /* NetworkMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148012242BC49900F85D41 /* NetworkMac.swift */; };
-		5E148015242BC49900F85D41 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E148013242BC49900F85D41 /* NetworkInterface.swift */; };
+		5E16ECD6242CF0580048B0F5 /* BluLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E16ECD5242CF0580048B0F5 /* BluLog.swift */; };
+		5E92F375242D707F00D4E2A3 /* SCMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F374242D707F00D4E2A3 /* SCMac.swift */; };
+		5E92F377242D95EC00D4E2A3 /* SCMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F376242D95EC00D4E2A3 /* SCMacTests.swift */; };
+		5E92F379242DA39E00D4E2A3 /* BSDRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F378242DA39D00D4E2A3 /* BSDRoute.m */; };
+		5E92F37C242DA6F800D4E2A3 /* RouteMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F37B242DA6F800D4E2A3 /* RouteMac.swift */; };
+		5E92F37E242DA74B00D4E2A3 /* RouteMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F37D242DA74B00D4E2A3 /* RouteMacTests.swift */; };
+		5E92F380242E45C400D4E2A3 /* NetMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F37F242E45C400D4E2A3 /* NetMacTests.swift */; };
 		5EB823A0242C086700564A9B /* BluJ-StatusBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8239F242C086700564A9B /* BluJ-StatusBar.pdf */; };
 		5EB823A3242C408900564A9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB823A2242C408900564A9B /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -44,13 +50,20 @@
 		5E147FFD242BBBF900F85D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E148006242BBC2000F85D41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5E148008242BC40F00F85D41 /* AdminMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminMac.swift; sourceTree = "<group>"; };
-		5E148009242BC40F00F85D41 /* BluJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluJ.swift; sourceTree = "<group>"; };
-		5E14800A242BC40F00F85D41 /* BluJUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluJUI.swift; sourceTree = "<group>"; };
+		5E148009242BC40F00F85D41 /* Blu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blu.swift; sourceTree = "<group>"; };
+		5E14800A242BC40F00F85D41 /* BluUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluUI.swift; sourceTree = "<group>"; };
 		5E14800E242BC42100F85D41 /* BluJ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluJ-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E14800F242BC42200F85D41 /* AuthExec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthExec.h; sourceTree = "<group>"; };
 		5E148010242BC42200F85D41 /* AuthExec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthExec.m; sourceTree = "<group>"; };
 		5E148012242BC49900F85D41 /* NetworkMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMac.swift; sourceTree = "<group>"; };
-		5E148013242BC49900F85D41 /* NetworkInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		5E16ECD5242CF0580048B0F5 /* BluLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluLog.swift; sourceTree = "<group>"; };
+		5E92F374242D707F00D4E2A3 /* SCMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMac.swift; sourceTree = "<group>"; };
+		5E92F376242D95EC00D4E2A3 /* SCMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMacTests.swift; sourceTree = "<group>"; };
+		5E92F378242DA39D00D4E2A3 /* BSDRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDRoute.m; sourceTree = "<group>"; };
+		5E92F37A242DA3A900D4E2A3 /* BSDRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSDRoute.h; sourceTree = "<group>"; };
+		5E92F37B242DA6F800D4E2A3 /* RouteMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMac.swift; sourceTree = "<group>"; };
+		5E92F37D242DA74B00D4E2A3 /* RouteMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMacTests.swift; sourceTree = "<group>"; };
+		5E92F37F242E45C400D4E2A3 /* NetMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMacTests.swift; sourceTree = "<group>"; };
 		5EB8239F242C086700564A9B /* BluJ-StatusBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "BluJ-StatusBar.pdf"; sourceTree = "<group>"; };
 		5EB823A2242C408900564A9B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -96,10 +109,14 @@
 		5E147FE4242BBBF800F85D41 /* BluJ */ = {
 			isa = PBXGroup;
 			children = (
-				5E148013242BC49900F85D41 /* NetworkInterface.swift */,
 				5E148012242BC49900F85D41 /* NetworkMac.swift */,
-				5E148009242BC40F00F85D41 /* BluJ.swift */,
-				5E14800A242BC40F00F85D41 /* BluJUI.swift */,
+				5E92F374242D707F00D4E2A3 /* SCMac.swift */,
+				5E92F37B242DA6F800D4E2A3 /* RouteMac.swift */,
+				5E92F37A242DA3A900D4E2A3 /* BSDRoute.h */,
+				5E92F378242DA39D00D4E2A3 /* BSDRoute.m */,
+				5E16ECD5242CF0580048B0F5 /* BluLog.swift */,
+				5E148009242BC40F00F85D41 /* Blu.swift */,
+				5E14800A242BC40F00F85D41 /* BluUI.swift */,
 				5E147FE5242BBBF800F85D41 /* AppDelegate.swift */,
 				5E148006242BBC2000F85D41 /* main.swift */,
 				5E148008242BC40F00F85D41 /* AdminMac.swift */,
@@ -127,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				5E147FFB242BBBF900F85D41 /* BluJTests.swift */,
+				5E92F37F242E45C400D4E2A3 /* NetMacTests.swift */,
+				5E92F376242D95EC00D4E2A3 /* SCMacTests.swift */,
+				5E92F37D242DA74B00D4E2A3 /* RouteMacTests.swift */,
 				5E147FFD242BBBF900F85D41 /* Info.plist */,
 			);
 			path = BluJTests;
@@ -242,14 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E92F375242D707F00D4E2A3 /* SCMac.swift in Sources */,
 				5E148014242BC49900F85D41 /* NetworkMac.swift in Sources */,
 				5E147FE6242BBBF800F85D41 /* AppDelegate.swift in Sources */,
 				5E14800B242BC40F00F85D41 /* AdminMac.swift in Sources */,
-				5E14800D242BC40F00F85D41 /* BluJUI.swift in Sources */,
-				5E148015242BC49900F85D41 /* NetworkInterface.swift in Sources */,
-				5E14800C242BC40F00F85D41 /* BluJ.swift in Sources */,
+				5E16ECD6242CF0580048B0F5 /* BluLog.swift in Sources */,
+				5E14800D242BC40F00F85D41 /* BluUI.swift in Sources */,
+				5E14800C242BC40F00F85D41 /* Blu.swift in Sources */,
+				5E92F37C242DA6F800D4E2A3 /* RouteMac.swift in Sources */,
 				5E148011242BC42200F85D41 /* AuthExec.m in Sources */,
 				5E148007242BBC2000F85D41 /* main.swift in Sources */,
+				5E92F379242DA39E00D4E2A3 /* BSDRoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E147FFC242BBBF900F85D41 /* BluJTests.swift in Sources */,
+				5E92F37E242DA74B00D4E2A3 /* RouteMacTests.swift in Sources */,
+				5E92F377242D95EC00D4E2A3 /* SCMacTests.swift in Sources */,
+				5E92F380242E45C400D4E2A3 /* NetMacTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

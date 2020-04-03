@@ -8,6 +8,16 @@
 
 import Foundation
 import Security
+import os
+
+public class AdminMacLog {
+    static let logSubsystem = "com.marclavergne.AdminMac"
+    lazy var log = OSLog(subsystem: AdminMacLog.logSubsystem, category: "admin")
+}
+
+extension OSLog {
+    public static let admin = AdminMacLog()
+}
 
 class AdminMac {
     static func run(_ executable: String, args: [String]) -> OSStatus {

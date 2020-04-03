@@ -51,21 +51,20 @@ class BluJUI {
 
     @objc public func reset(_ sender:Any?) {
         print("BluJ Reset")
-        let bluj = BluJ()
-        guard let ifc = bluj.getDefaultLAN() else {
+        guard let route = NetworkMac.getDefaultLANRoute() else {
             return
         }
-        bluj.resetRoute(ifc: ifc)
+        NetworkMac.resetRoute(route)
     }
 
     @objc public func route(_ sender:Any?) {
         print("BluJ Route")
-        let bluj = BluJ()
-        guard let ifc = bluj.getDefaultLAN() else {
+        guard let route = NetworkMac.getDefaultLANRoute() else {
             return
         }
-        if !bluj.isBluejeansRouteLAN() {
-             bluj.setBluejeansRoutes(ifc)
+        let blu = BluJ()
+        if !blu.isBluejeansRouteLAN() {
+             blu.setBluejeansRoutes(route)
         }
     }
 

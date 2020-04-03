@@ -12,8 +12,8 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        let bluj = BluJUI()
-        bluj.run()
+        let blu = BluJUI()
+        blu.run()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

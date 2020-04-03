@@ -39,13 +39,15 @@ class BluJ : NetworkMac {
         }
     }
     
-    func setBluejeansRoutes(_ ifc: NetworkInterface) {
+    func setBluejeansRoutes(_ route: NetworkRoute) {
         _ = hosts.map { host in
-            addRoute(ipSeg: host, gateway: ifc.gateway)
+            var route = route
+            route.ipAddress = host
+            NetworkMac.addRoute(route)
         }
     }
     
-    func getBluejeansGateway() -> NetworkInterface? {
+    func getBluejeansRoute() -> NetworkRoute? {
         var testHost: String?
         for host in hosts {
             if !host.contains(".0/") {
@@ -54,16 +56,17 @@ class BluJ : NetworkMac {
             }
         }
         
-        guard let blujHost = testHost else {
+        guard let bluHost = testHost else {
             return nil
         }
 
-        return getGateway(ipSeg: blujHost)
+        return NetworkMac.getRoute(bluHost)
     }
     
     func isBluejeansRouteLAN() -> Bool {
-        let ifc = getBluejeansGateway()
-        let lan = getDefaultGateway()
-        return ifc?.gateway == lan?.gateway
+        let blu = BluJ()
+        let bluRoute = blu.getBluejeansRoute()
+        let lanRoute = NetworkMac.getDefaultRoute()
+        return bluRoute?.ipGateway == lanRoute?.ipGateway
     }
 }

@@ -14,7 +14,7 @@
 @implementation AuthExec
 
 /**
- *  The application *cannot* be  sandboxed  for this to work since the executable path is not available in the sandbox
+ *  The application *cannot* be  sandboxed  for this to work since no executable paths are in the sandbox
  */
 + (OSStatus)execute:(AuthorizationRef)authorizationRef executable:(NSString *)executable args:(NSArray<NSString *> *)args {
     char* exec = (char *)executable.UTF8String;
